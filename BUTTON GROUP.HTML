@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>BUTTON GROUP </title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+
+<div class="container mt-3">
+  <h2>BUTTON GROUP</h2>
+  <div class="btn-group">
+    <button type="button" class="btn btn-info">BCA </button>
+    <button type="button" class="btn btn-warning">BBA </button>
+    <button type="button" class="btn btn-info">B.COM </button>
+  </div>
+</div>
+
+<hr>
+<hr>
+
+<div class="container mt-3">
+  <h2>BUTTON GROUP SIZES </h2>
+  <h3>Large Buttons:</h3>
+  <div class="btn-group btn-group-lg">
+    <button type="button" class="btn btn-dark">BCA</button>
+    <button type="button" class="btn btn-danger">BBA</button>
+    <button type="button" class="btn btn-dark">B.COM</button>
+  </div>
+  <hr>
+  <h3>Default Buttons:</h3>
+  <div class="btn-group">
+    <button type="button" class="btn btn-dark">BCA</button>
+    <button type="button" class="btn btn-danger">BBA</button>
+    <button type="button" class="btn btn-dark">B.COM</button>
+  </div>
+  <hr>
+  <h3>Small Buttons:</h3>
+  <div class="btn-group btn-group-sm">
+    <button type="button" class="btn btn-dark">BCA</button>
+    <button type="button" class="btn btn-danger">BBA</button>
+    <button type="button" class="btn btn-dark">B.COM</button>
+  </div>
+</div>
+
+<hr>
+<hr>
+
+<div class="container mt-3">
+  <h2>VARTICAL BUTTON GROUP</h2>
+  <div class="btn-group-vertical">
+    <button type="button" class="btn btn-light">BCA</button>
+    <button type="button" class="btn btn-primary">BBA</button>
+    <button type="button" class="btn btn-light">B.COM</button>
+  </div>
+</div>
+
+<hr>
+<hr>
+
+<div class="container mt-3">
+  <h2>BUTTON  GROUP </h2>
+  <div class="btn-group">
+    <button type="button" class="btn btn-warning">BCA</button>
+    <button type="button" class="btn btn-dark">BBA</button>
+    <button type="button" class="btn btn-danger">B.COM </button>
+  </div>
+  <div class="btn-group">
+    <button type="button" class="btn btn-warning">BCA</button>
+    <button type="button" class="btn btn-dark">BBA</button>
+    <button type="button" class="btn btn-danger">B.COM</button>
+  </div>
+</div>
+	
+<hr>
+<hr>
+
+<div class="container mt-3">
+  <h2>NESTING BUTTON GROUPS </h2>
+  <div class="btn-group">
+    <button type="button" class="btn btn-info">BCA</button>
+    <button type="button" class="btn btn-primary">B.COM </button>
+    <div class="btn-group">
+      <button type="button" class="btn btn-info dropdown-toggle" data-bs-toggle="dropdown">BCA</button>
+      <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="#">HTML </a></li>
+        <li><a class="dropdown-item" href="#">C</a></li>
+		<li><a class="dropdown-item" href="#">C++</a></li>
+        <li><a class="dropdown-item" href="#">JAVA</a></li>
+        <li><a class="dropdown-item" href="#">JAVASCRIPT</a></li>
+		<li><a class="dropdown-item" href="#">DBMS</a></li>
+        <li><a class="dropdown-item" href="#">PYTHON</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
